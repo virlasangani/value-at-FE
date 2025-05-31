@@ -1,4 +1,3 @@
-import React from 'react';
 import { MoreVertical, Clock, SignalMedium, Banknote } from 'lucide-react';
 import moment from 'moment/moment';
 

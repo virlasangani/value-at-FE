@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MenuItem } from './MenuItem';
 import { LayoutDashboard, Bell, Briefcase, Users, FileText, CheckSquare } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
