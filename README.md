@@ -1,12 +1,62 @@
-# React + Vite
+# 🧠 Value At Void Practical
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend project scaffolded with **Vite** and styled using **Tailwind CSS**, featuring routing via **React Router v7**. The project is organized with a modular structure to promote scalability and maintainability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Vite**: v6.3.1 – lightning-fast build tool
+- **React**: ^19.0.0 – UI library
+- **Tailwind CSS** – utility-first CSS framework
+- **React Router DOM**: v7 – declarative routing for React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd assignment-frontend
+
+2. Install the dependencies:
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
+
+## 📁 Project Structure
+
+src/
+├── components/ # Shared reusable components
+
+├── layout/ # Common layout used across pages
+
+├── pages/ # Page-level components (Home, Contact Us)
+
+├── routes/ # Routing configuration
+
+└── main.jsx # Application entry point
+
+## Application Deployed on varcel
+
+Url: https://value-at-fe.vercel.app/jobs
+
+## Focus 
+
+1. Create a Nested Routes to showcase the new routing module to handle complx route
+2. Implemented a Jobs page to showcase a UI and API integration
+3. Other routes are added but not worked just added page text
+
+##API Integration
+
+Added a **Axios** library and created a common interceptor to handle the response and request globally.
+
+
+
+
+
+
